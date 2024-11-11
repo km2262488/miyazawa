@@ -45,7 +45,7 @@ def udp(ip, port, packet, times):
         s.close()
     except:
       s.close()
-  print("\x1b[31m[\x1b[33mMedusa\x1b[31m] > \x1b[0mWASSALAMU ALAIKUM")
+  print("\x1b[31m[\x1b[33mMiyazawa\x1b[31m] > \x1b[0mWASSALAMU ALAIKUM")
 
 def main():
   global threads
